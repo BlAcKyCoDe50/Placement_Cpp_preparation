@@ -4,7 +4,7 @@ using namespace std;
 main(){
 
 char arr[100];
-cout<<"enter the strig: ";
+cout<<"enter the string: ";
 cin>>arr;
 
 int len=strlen(arr);
