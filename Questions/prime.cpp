@@ -1,27 +1,31 @@
 #include<iostream>
 using namespace std;
 
-int prime(int num){
-    int count=0;
-   for (int i = 0; i <= num; i++)
+bool isprime(int num){
+      bool flag=true;
+      if(num==0 || num==1)
+         flag= false;
+   
+   for (int i = 2; i < num/2; i++)
    {
-    /* code */
-     if(num%1==0 && num%2==0) 
-        count++;
+      /* code */
+      if(num%i==0){
+         flag= false;
+         break;
+      }
+      else
+         flag= true;
    }
-   if(count==2){
-    cout<<"Prime"<<endl;
-   }
-   else{ cout<<"Not Prime";}
-   
-   return 0;
-   
+   return flag;
 }
 main(){
 
 int num;
 cin>>num;
-prime(num);
+if(isprime(num)==true)
+   cout<<"Prime";
+else
+   cout<<"Not a prime";
 
 return 0;
 }
