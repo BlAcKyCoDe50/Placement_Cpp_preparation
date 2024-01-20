@@ -9,13 +9,5 @@ cin>>a;
 strcpy(b,a);
 cout<<"The word in a: "<<a<<endl;
 cout<<"The word in b: "<<b;
-
-
-
-
-
-
-
-
 return 0;
 }
