@@ -1,0 +1,8 @@
+1.MAp
+    contains elements that are key/value pairs
+    each element has a key that is the basis for the sorting critetion and a value
+    dupicate keus are not allowed
+
+2.MULTIMAP
+
+ Similar to maps except that here dupicates are allowed

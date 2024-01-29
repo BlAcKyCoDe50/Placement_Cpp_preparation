@@ -5,7 +5,24 @@
 // A public member function named "setSalary" takes in the value of "salary" as a parameter and sets the corresponding data member for an employee object. This function allows the company to set the salary for an employee.
 // A public member function named "getSalary" retrieves and returns the value of "salary" for an employee object. This function allows the company to retrieve an employee's salary for various calculations.
 // A private data member named "salary" stores the integer value of an employee's salary. This data member is specific to each employee object.
+// N
 
+// Output Format
+
+// The output displays the total number of employees, followed by their salary on each line.
+
+// Sample Input 0
+
+// 3
+// 100
+// 200
+// 300
+// Sample Output 0
+
+// Total number of employees: 3
+// Salary for employee 1: 100
+// Salary for employee 2: 200
+// Salary for employee 3: 300
 
 #include<iostream>
 using namespace std;
