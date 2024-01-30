@@ -1,0 +1,5 @@
+Prdedefied macro name: 
+    1._LINE_ : This contains the current line number of the program when it is being compiled.
+    2._FILE_ : This contains the current file name of the program when it is being compiled.
+    3._DATE_ : This contains a string of the form month/day/year that is the date of the translation of the source file into object code.
+    4._TIME_ : This contains a string of the form hr:min:sec that is the time at which the program was compiled.
