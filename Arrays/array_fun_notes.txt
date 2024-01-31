@@ -1,0 +1,8 @@
+functions on vector: 
+at()...used to get the element at particular index
+ar.empty(): check the array is empty or not
+ar.size()
+ar.max_size(): max capacity
+ar.swap(ar1): swapping of elements
+ar.fill(0): fill all the elements with 0
+ar.empty ?: check for empty array
