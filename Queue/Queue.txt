@@ -1,0 +1,8 @@
+->Circular Queue: each node is connected to the next node in sequence but  the last
+node's pointer is also connected to the first node's address
+henece, the last node and the first node also gets connected making a 
+circular link overall
+
+->Priority Queue: deletion is according to priority
+
+->Double-ended Queue: insertion and deletion is possible through both the ends
