@@ -1,0 +1,12 @@
+Linked List
+    Sequence of item where every item is Linked to the next
+    Each element is dynamically allocated and in which elements points to each other
+    Elements are called nodes wherer each node has data and pointer to the next node
+    Requires more memery than array
+
+Type: Singly Linked List,double linked List
+
+Singly Linked List:
+    each node contains data and pointer to next node
+    last node's pointer is null
+    limitation is we can traverse only in one direction,forward
