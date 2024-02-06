@@ -1,0 +1,10 @@
+Tree Traversal: DFS (depth first search) | BFS(Breadth first search)
+
+DFS: in-order | Pre-order | Post-order
+
+    #in-order: :left root right
+    #Pre-order: Root left right
+    # Post-order: Left right root
+
+BFS: Level-order search
+    ->Level wise from left to right

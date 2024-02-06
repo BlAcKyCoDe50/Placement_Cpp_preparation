@@ -1,0 +1,15 @@
+Given a BST, find and delete the Given value from it
+
+Case 1: deletion of leaf node.
+    just delete the leaf node..no need to replace 
+
+Case 2: Delete a Node with Single Child in BST
+
+Replace that node with it's child node
+
+Case 3: delete a node with 2 children
+i/p: 5
+
+Step1: find in order successor of 5
+step 2: replace 5 with in-order successor
+step 3: delete in-order successor

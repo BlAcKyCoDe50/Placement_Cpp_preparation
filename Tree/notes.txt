@@ -1,0 +1,31 @@
+Degree of the node : no of the nodes connected 
+path of the tree: the node traversed for reaching the destination node from source node
+height: leaf node  to root node
+depth: from specific node to root node...(all nodes have different depth on different levels)
+
+Type of tree: 
+    General tree     |  Binary search tree
+    Expression Tree  |  Forest tree
+    Binary Tree      |
+
+1. General Tree : basic represantion of tree is a general tree.
+
+2.Binary Tree: A tree Data structure where each node has at most two child nodes is called a Binary tree.
+    used in range of applications like Expression evaluation,databases etc.
+
+                   Types of Binary Tree: 
+    |                       |                 |
+Full Binary Tree   Perfect Binary Tree  Complete Binary Tree   
+
+# Full Binary Tree: A Binary tree in which each node has exactly zero or two child is called a full Binary Tree.
+-> every node other than leaf nodes has 2 child nodes.
+
+#Perfect Binary Tree: All nodes has exactly 2 children's.
+#Complete Binary Tree: A Binary Tree that is Completely filled with the exception of the lowest level that is filled from the left to right.
+
+
+#Binary search Tree: In a BST,the nodes to the left are less than the root node while the nodes to the right are greater 
+                     than the root node.
+            -> The BST is used in searching and sorting techniques.
+
+#Expression Tree: it is used for simple arithematic operations.
