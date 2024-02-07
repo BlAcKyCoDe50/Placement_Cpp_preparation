@@ -8,7 +8,7 @@ class Node{
     Node * rear;
 };
 
-void pushAtLast(struct Node **head,int n,){
+void pushAtLast(struct Node **head,int n){
     Node *element= new Node();
 
 }
