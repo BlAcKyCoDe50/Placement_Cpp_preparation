@@ -20,8 +20,5 @@ cout<<"Sum of the array is: "<<sum;
 int avg=sum/n;
 cout<<"Avg of the array is: "<<avg;
 // return 0;
-
-
-
 return 0;
 }
