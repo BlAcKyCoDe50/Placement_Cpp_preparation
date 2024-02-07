@@ -18,9 +18,6 @@
 // Sample Output 0
 
 // Speed of car: 3 km/hr
-
-
-
 #include <cmath>
 #include <cstdio>
 #include <vector>
