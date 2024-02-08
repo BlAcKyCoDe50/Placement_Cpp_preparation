@@ -1,0 +1,6 @@
+Rule1: Visit the adjacent unnvisited vertex. Mark it as visited.
+    Display it.Insert it in a queue.
+
+Rule2: If no adjacent vertex is found,remove the first vertex from the queue.
+
+Rule3: Repeat Rule1 and Rule2 until the queue is empty.
